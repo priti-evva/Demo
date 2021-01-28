@@ -22,6 +22,8 @@ public class customer {
 	@Column(name="Customer_name")
     private String customer_name;
 	
+	//priti change
+	
 	public customer(int customerId, String customer_name) {
 		super();
 		this.customerId = customerId;
